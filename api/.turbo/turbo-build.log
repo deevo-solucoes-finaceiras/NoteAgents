@@ -1,0 +1,6 @@
+
+> noteagents-api@1.0.0 build /vercel/share/v0-project/apps/api
+> tsc --project tsconfig.build.json
+
+error TS5058: The specified path does not exist: 'tsconfig.build.json'.
+ ELIFECYCLE  Command failed with exit code 1.

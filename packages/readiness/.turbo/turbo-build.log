@@ -1,0 +1,7 @@
+
+> @noteagents/readiness@1.0.0 build /vercel/share/v0-project/packages/readiness
+> tsc build --project tsconfig.build.json
+
+error TS5042: Option 'project' cannot be mixed with source files on a command line.
+ ELIFECYCLE  Command failed with exit code 1.
+ WARN   Local package.json exists, but node_modules missing, did you mean to install?

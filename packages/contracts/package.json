@@ -1,0 +1,16 @@
+{
+  "name": "@noteagents/contracts",
+  "version": "1.0.0",
+  "description": "NoteAgents API contracts and schemas (Zod)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "build": "tsc build --project tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint 'src/**/*.ts' --max-warnings=0"
+  },
+  "dependencies": {
+    "zod": "^3.25.76"
+  }
+}
